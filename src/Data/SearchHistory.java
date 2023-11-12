@@ -16,4 +16,8 @@ public class SearchHistory {
     public void addHistory(String item) {
         history.add(item);
     }
+
+    public void removeHistory(){
+        history.clear();
+    }
 }

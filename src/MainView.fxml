@@ -12,7 +12,6 @@
    <children>
       <Button fx:id="wordSearch" layoutX="492.0" layoutY="48.0" mnemonicParsing="false" onAction="#wordSearchButton" text="Search" />
       <Button fx:id="clearHistory" layoutX="230.0" layoutY="405.0" mnemonicParsing="false" onAction="#clearHistoryButton" prefHeight="13.0" prefWidth="324.0" text="ClearHistory" />
-      <Button layoutX="230.0" layoutY="211.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="154.0" text="Read" />
       <TextField fx:id="wordInput" layoutX="66.0" layoutY="48.0" prefHeight="25.0" prefWidth="401.0" />
       <Text layoutX="246.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WordSearch">
          <font>
@@ -22,7 +21,6 @@
       <ListView fx:id="allWords" layoutX="35.0" layoutY="115.0" prefHeight="315.0" prefWidth="174.0" />
       <ListView fx:id="wordsStartingWithA" layoutX="230.0" layoutY="115.0" prefHeight="89.0" prefWidth="154.0" />
       <ListView fx:id="wordsStartingWithN" layoutX="397.0" layoutY="115.0" prefHeight="89.0" prefWidth="154.0" />
-      <Button layoutX="397.0" layoutY="211.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="154.0" text="Read" />
       <ListView fx:id="searchHistoryView" layoutX="230.0" layoutY="267.0" prefHeight="131.0" prefWidth="324.0" />
       <Text layoutX="43.0" layoutY="468.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total word count:">
          <font>

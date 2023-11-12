@@ -74,6 +74,9 @@ public class MainController implements Initializable {
     }
 
     public void clearHistoryButton(ActionEvent actionEvent) {
+        wordSearchLogic.removeHistory(); //removes from list
+        searchHistoryView.getItems().clear(); // removes from view
+
     }
 
 

@@ -49,5 +49,8 @@ public class WordSearchLogic{
     public ArrayList<String> getHistory() {
         return searchHistory.getHistory();
     }
+    public void removeHistory(){
+        searchHistory.removeHistory();
+    }
 
 }
