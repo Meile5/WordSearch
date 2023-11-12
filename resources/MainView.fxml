@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="499.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.MainController">
+   <children>
+      <Button fx:id="wordSearch" layoutX="492.0" layoutY="48.0" mnemonicParsing="false" onAction="#wordSearchButton" text="Search" />
+      <Button fx:id="clearHistory" layoutX="230.0" layoutY="405.0" mnemonicParsing="false" onAction="#clearHistoryButton" prefHeight="13.0" prefWidth="324.0" text="ClearHistory" />
+      <Button layoutX="230.0" layoutY="211.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="154.0" text="Read" />
+      <TextField fx:id="wordInput" layoutX="66.0" layoutY="48.0" prefHeight="25.0" prefWidth="401.0" />
+      <Text layoutX="246.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WordSearch">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <ListView fx:id="allWords" layoutX="35.0" layoutY="115.0" prefHeight="315.0" prefWidth="174.0" />
+      <ListView fx:id="wordsStartingWithA" layoutX="230.0" layoutY="115.0" prefHeight="89.0" prefWidth="154.0" />
+      <ListView fx:id="wordsStartingWithN" layoutX="397.0" layoutY="115.0" prefHeight="89.0" prefWidth="154.0" />
+      <Button layoutX="397.0" layoutY="211.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="154.0" text="Read" />
+      <ListView fx:id="searchHistoryView" layoutX="230.0" layoutY="267.0" prefHeight="131.0" prefWidth="324.0" />
+      <Text layoutX="43.0" layoutY="468.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total word count:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="340.0" layoutY="468.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search result:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Label layoutX="163.0" layoutY="455.0" />
+      <Label layoutX="460.0" layoutY="454.0" />
+      <Text layoutX="43.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Words" />
+      <Text layoutX="235.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A" />
+      <Text layoutX="397.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N" />
+      <Text layoutX="373.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="History" />
+      <Label fx:id="totalWordCount" layoutX="163.0" layoutY="455.0" text="Label" />
+      <Label fx:id="searchResult" layoutX="460.0" layoutY="454.0" text="Label" />
+   </children>
+</AnchorPane>
